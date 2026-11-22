@@ -38,12 +38,3 @@ Logistic Regression has the highest recall for heart disease (0.97), but this co
 Random Forest and KNN give the best balance. Both reach 0.89 accuracy with about 0.91 recall on the disease class, while also classifying healthy patients well (recall 0.86).
 Recall was the tuning metric because missing a patient with heart disease is the costlier error in a screening setting. Optimizing for recall alone tends to favor models that over-predict the positive class, which is what happened with Logistic Regression.
 Limitations: the test set has only 61 samples, so each misclassified patient moves the metrics noticeably. Results come from a single train/test split and would be more reliable with repeated cross-validation. This is a learning exercise, not a diagnostic tool.
-Repository Structure
-.
-├── Assignment_7.ipynb   # Main notebook
-├── heart.csv            # Dataset (see below)
-└── README.md
-Dataset
-
-heart.csv, the Heart Disease (UCI) dataset with 303 patient records, sourced from Kaggle. Add the dataset link here: <kaggle-dataset-url>.
-
