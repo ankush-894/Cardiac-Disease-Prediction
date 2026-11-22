@@ -5,7 +5,7 @@ Heart Disease Prediction: Logistic Regression, Decision Tree, Random Forest & KN
 
 Cardiac Diagnostics Case Study predicts the presence of heart disease from patient health attributes. Four classification models are tuned with cross-validated grid search and compared on a held-out test set.
 
-Open in Google Colab
+Open in Google Colab https://colab.research.google.com/drive/13du2cnay5bj3tnMTiG6JrExlPMx0YNvC
 
 Overview
 Load heart.csv (303 patients, 13 features plus a binary target). There are no missing values.
